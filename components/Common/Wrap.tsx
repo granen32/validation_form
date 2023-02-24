@@ -1,7 +1,10 @@
 import React from 'react'
 
-const Wrap = () => {
-  return <div>Wrap</div>
+type WrapProps = {
+  children: React.ReactNode
+}
+const Wrap = ({ children }: WrapProps) => {
+  return <div>{children}</div>
 }
 
 export default Wrap

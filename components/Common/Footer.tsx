@@ -1,14 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-const FaqList = [
-  'Help',
-  'My Account',
-  'Shipping',
-  'FAQ',
-  'Shop',
-  'Community',
-  'Contact Us',
-]
+const FaqList = ['Help', 'My Page']
 type Props = {
   color: string
   link: string
